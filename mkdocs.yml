@@ -1,0 +1,8 @@
+site_name: TestSite
+site_url: https://prorifi3D.com/
+
+nav:
+    - Home: index.md
+    - Navi: about.md
+theme:
+  name: material
