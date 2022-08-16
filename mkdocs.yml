@@ -1,8 +1,16 @@
-site_name: TestSite
-site_url: https://prorifi3D.com/
-
-nav:
-    - Home: index.md
-    - Navi: about.md
+site_name: P3D Web Test
 theme:
   name: material
+  highlightjs: true
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition
